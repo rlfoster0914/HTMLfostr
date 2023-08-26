@@ -1,0 +1,53 @@
+
+html {
+    background-color: #525657;
+}
+
+body {
+    background-color: #8C9292;
+    border-radius: 30px;
+}
+
+header {
+    text-align: center;
+    padding: 30px;
+}
+
+header img {
+    display: block;
+    margin: 20px auto; 
+    width: 33.3%;
+}
+
+nav {
+    text-align: center;
+}
+
+nav a {
+    color: #FFFE4E;
+    margin: 0 30px;
+    font-size: 25px;
+    
+}
+
+nav a:hover {
+
+    color: #F53227;
+}
+
+main {
+    padding: 20px;
+    margin: 10px auto;
+    text-align: center;
+}
+
+main img {
+    display: block;
+    margin: 20px auto;
+    width: 35%;
+}
+
+footer {
+    padding: 30px;
+    margin: 10px 0;
+}
