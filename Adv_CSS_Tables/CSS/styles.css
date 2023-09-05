@@ -1,0 +1,157 @@
+body{
+    background-color: #0583F2;
+    text-align: center;
+
+}
+
+img {
+    padding: 5px;
+    display: block;
+    margin: 0 auto;
+    width: 30%;
+}
+
+#container {
+    padding: 5px;
+    background-color: white;
+    width: 70%;
+    margin: auto;
+    border-radius: 20px;
+}
+
+header {
+    font-weight: bold;
+}
+
+nav {
+    border: #0583F2 outset 10px;
+    background-color: #D53D02;
+    padding: 4px 3px;
+    border-radius: 10px;
+}
+
+nav ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav li a {
+    display: block;
+    background-color: white;
+    width: 125px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 1.5em;
+    font-weight: 1000;
+    color: #D53D02;
+    text-decoration: none;
+    border: 10px ridge black;
+    border-radius: 10px;
+    margin: 0 20px;
+}
+
+nav li a:hover {
+    background-color: #D53D02;
+    color: #B6A70A;
+}
+
+main {
+    display: flex;
+}
+
+#main_images img {
+    padding: 10px 3px;
+    width: 80%;
+    height: 90%;
+}
+
+#sub_images img {
+    width: 35%;
+    height: 30%;
+}
+
+section, aside {
+    background-color: #C5CC22;
+    border: outset #D53D02 10px;
+    border-radius: 10px;
+    padding: 4px 10px;
+    margin: 10px 10px;
+}
+
+section {
+    width: 65%;
+}
+
+aside {
+    width: 35%;
+}
+
+.table_images {
+    width: 40%;
+    height: 40%;
+}
+
+table {
+    border: #432809 solid 4px;
+    border-radius: 10px;
+}
+
+tr {
+    border: #432809 solid 10px;
+}
+
+td {
+    border: #432809 solid 10px;
+    text-align: center;
+}
+
+.single_page {
+    width: 100%;
+    
+}
+
+#lower_area {
+    display: flex;
+    align-content: center;
+}
+
+.col {
+    background-color: #0485FF;
+    border: outset #C5CC22 10px;
+    padding: 10px 20px;
+    margin: 10px 40px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.button {
+    display: block;
+    background-color: #432809;
+    color: #C5CC22;
+    text-align: center;
+    text-decoration: none;
+    border: black solid 4px;
+    border-radius: 10px;
+    margin: 10px auto;
+    height: 60px;
+    line-height: 60px;
+    width: 300px;
+    font-size: large;
+    font-weight: bold;
+}
+
+.button:hover {
+    background-color: #C5CC22;
+    color: #432809;
+    border: #432809 dashed;
+}
+
+footer {
+    background-color: white;
+    text-align: center;
+    font-weight: bold;
+}
